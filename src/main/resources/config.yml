@@ -1,0 +1,19 @@
+# Mondes concernés (liste vide = tous les mondes)
+worlds:
+  - world
+
+# Fluidité : budget par tick (20 ticks = 1 seconde)
+# Baisse ces valeurs si tu as des lags, monte-les si tu veux que ce soit plus rapide.
+checks-per-tick: 30000
+changes-per-tick: 3000
+
+# Sable, gravier, etc. : durée (en ticks) pendant laquelle ils ne peuvent pas tomber après la conversion.
+# Ensuite ils restent en place tant qu'on ne casse / pose pas de bloc à côté.
+freeze-ticks: 100
+
+# Affiche le bloc choisi dans l'action bar du joueur
+announce: true
+
+# Blocs à ne jamais utiliser comme bloc aléatoire (noms Material, ex: TNT)
+blacklist:
+  - TNT
