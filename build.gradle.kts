@@ -29,6 +29,7 @@ tasks.processResources {
 
 tasks.jar {
     archiveBaseName.set("ChunkRandomBlock")
+    archiveClassifier.set("all")
 }
 
 // Le plugin n'a aucune dépendance à embarquer : shadowJar produit simplement le jar du plugin.
