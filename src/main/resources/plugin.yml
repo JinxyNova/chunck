@@ -1,5 +1,5 @@
 name: ChunkRandomBlock
-version: ${project.version}
+version: ${version}
 main: fr.chunkrandom.ChunkRandomBlock
 api-version: "26.2"
 description: Chaque chunk dans lequel tu entres se transforme en un bloc aléatoire.
